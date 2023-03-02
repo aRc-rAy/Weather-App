@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { AsyncPaginate } from "react-select-async-paginate";
-import { GET_API_URL, geoApiOptions, getApiOptions } from "../../citi-api";
+import { GET_API_URL, getApiOptions } from "../../citi-api";
 
 const Search = ({ onSearchChange }) => {
 	const [search, setsearch] = useState(null);

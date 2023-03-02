@@ -1,9 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body {
 	margin: 0;
 	font-family: "Roboto", Arial !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: rgba(97, 93, 93, 0.998);
+	background-color: rgba(0, 0, 0, 0.998);
 }
 
 code {
